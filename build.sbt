@@ -5,7 +5,7 @@ lazy val rsc = (project in file("."))
   .settings(scalariformSettings: _*)
   .settings(
     version := "1.0-SNAPSHOT",
-    scalaVersion := "2.11.6",
+    scalaVersion := "2.11.7",
     organization := "swave.io",
     description := "Comparison of Reactive Streams implementations",
     startYear := Some(2015),
@@ -37,4 +37,5 @@ lazy val rsc = (project in file("."))
       "io.reactivex"	%% "rxscala"	% "0.24.1",
       "io.projectreactor"	% "reactor-core"	% "2.0.3.RELEASE",
       "io.projectreactor"	% "reactor-stream"	% "2.0.3.RELEASE",
+      "org.monifu" %% "monifu" % "1.0-RC1",
       "ch.qos.logback" % "logback-classic" % "1.1.2"))
